@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+body {
+    background-color: #333333;
+}
+
+.sidebar {
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background-color: #333333;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding-left: 25px;
+    padding-top: 25px;
+    font-family: JetBrains Mono;
+    color: white;
+}
+
+.a-menu {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.a-menu:hover {
+    color: #DCDCDC;
+    text-decoration: none;
+}
+
+.content {
+    margin-left: 200px;
+    padding: 0px;
+}
+
+.header {
+    background-color: #1155cc;
+    color: #ffffff;
+    font-family: Unbounded;
+    padding: 25px;
+    padding-left: 50px;
+    text-shadow: none;
+    transition: text-shadow 0.3s;
+}
+
+.header:hover {
+    text-shadow: 0 0 20px #333333;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+marquee {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: JetBrains Mono;
+    padding: 25px;
+    padding-left: 50px;
+}
+
+h1 {
+    background-color: #333333;
+    color: #ffffff;
+    font-family: Unbounded;
+    padding: 25px;
+    padding-left: 50px;
+    transition: 0.3s;
+}
+
+h1:hover {
+    text-shadow: 0 0 20px #ffffff;
+}
+
+p {
+    background-color: #333333;
+    color: #ffffff;
+    font-family: JetBrains Mono;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+
+.a {
+    color: #1155cc;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.a:hover {
+    color: #0049c7;
+}
+
+.btn {
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: transparent;
+    border: 2px solid #1155cc;
+    border-radius: 3px;
+    box-shadow: 0 0 10px #696969;
+    margin: 50px auto;
+    display: block;
+    color: #1155cc;
+    font-family: JetBrains Mono;
+    font-size: 17px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+    background-color: #1155cc;
+    color: #ffffff;
+}
+
+img {
+    width: 800px;
+    text-align: center; 
+    display: block;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: none;
+	transition: box-shadow 0.3s;
+}
+
+img:hover {
+    box-shadow: 0 0 10px #1155cc;
+}
+
+hr {
+    width: 500px;
+    margin: 30px auto;
+    border: 1px solid #ffffff;
+}
